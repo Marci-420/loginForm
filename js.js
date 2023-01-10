@@ -6,6 +6,7 @@ function login(){
     console.log(isTicked)
 
     if (username == "admin" && password == "admin1234" && isTicked){
-        alert("üdv admin")
+        document.getElementById("bszs").hidden = true
+        document.write("Üdv. Admin!")
     }
 }
